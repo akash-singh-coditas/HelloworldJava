@@ -2,6 +2,8 @@
 
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World! running with jenkins with another change"); 
+        for(int i = 0;i<10;i++){
+		System.out.println("running using git commit");
+         } 
     }
 }
